@@ -107,4 +107,4 @@ tar -zxvf detr_checkpoints.tar.gz
 | PAML(Ours)   | **45.64**   | 43.48        | 38.73       | 46.30         | 29.87         | 36.82        | 42.54          | 30.70          | 42.09          |
 
 ## Acknowledgment
-The code is based on [ResVG](https://github.com/minghangz/ResVG), [TransVG](https://gthub.com/djiajunustc/TransVG), [TransCP](https://github.com/WayneTomas/TransCP). We thank the authors for their open-sourced code and encourage users to cite their works when applicable.  
+The code is based on [ResVG](https://github.com/minghangz/ResVG), [TransVG](https://gthub.com/djiajunustc/TransVG), [TransCP](https://github.com/WayneTomas/TransCP), [ALBEF](https://github.com/salesforce/ALBEF). We thank the authors for their open-sourced code and encourage users to cite their works when applicable.  
