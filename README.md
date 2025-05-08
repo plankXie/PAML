@@ -48,7 +48,7 @@ The training samples can be download from [data](https://drive.google.com/file/d
 ```
 
 ### Pretrained Checkpoints
-1.You can download the DETR checkpoints from [detr_checkpoints](https://disk.pku.edu.cn:443/link/4E6B5343270CC07E52A88AA8A7A31CE8). These checkpoints should be downloaded and move to the checkpoints directory.
+1.You can download the DETR checkpoints from [detr_checkpoints](https://drive.google.com/drive/folders/1SOHPCCR6yElQmVp96LGJhfTP46RxVwzF). These checkpoints should be downloaded and move to the checkpoints directory.
 
 ```
 mkdir pretrained_checkpoints
@@ -65,12 +65,11 @@ tar -zxvf detr_checkpoints.tar.gz
 
 2.  Evaluation on RefCOCO.
     ```
-    python -m torch.distributed.launch --nproc_per_node=4 --use_env test.py --config configs/ResVG_R50_unc.py --checkpoint PAML_R50_unc.pth --batch_size_test 24 --test_split testA;
+    python -m torch.distributed.launch --nproc_per_node=4 --use_env test.py --config configs/PAML_R50_unc.py --checkpoint PAML_R50_unc.pth --batch_size_test 24 --test_split testA;
     ```
 
 ## Results
-### Comparison of open-vocabulary scene with the state-of-the-art methods by the models trained on RefCOCO dataset and test on ReferIt and Flickr30K Entities.
-
+**Comparison of open-vocabulary scene with the state-of-the-art methods by the models trained on RefCOCO dataset and test on ReferIt and Flickr30K Entities.**
 | Models | ReferIt val | ReferIt test | Flickr30K val | Flickr30K test |
 |--------|-------------|--------------|---------------|----------------|
 | LBYL-Net | 21.76 | 22.93 | 22.97 | 21.62 |
