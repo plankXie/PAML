@@ -22,6 +22,7 @@ while achieving state-of-the-art results in open-vocabulary scene.
 
 1. [Usage](#usage)
 2. [Results](#results)
+3. [Acknowledgments](#acknowledgments)
 
 ## Usage
 
@@ -104,3 +105,6 @@ tar -zxvf detr_checkpoints.tar.gz
 | TransCP      | 45.36       | **43.99**    | **39.35**   | 46.26         | 31.76         | **37.80**    | **42.91**      | **32.95**      | **44.91**      |
 | ResVG        | 44.96       | 42.58        | 37.01       | 45.86         | 30.32         | 36.71        | 41.83          | 30.91          | 44.62          |
 | PAML(Ours)   | **45.64**   | 43.48        | 38.73       | 46.30         | 29.87         | 36.82        | 42.54          | 30.70          | 42.09          |
+
+## Acknowledgment
+The code is based on [ResVG](https://github.com/minghangz/ResVG), [TransVG](https://gthub.com/djiajunustc/TransVG), [TransCP](https://github.com/WayneTomas/TransCP). We thank the authors for their open-sourced code and encourage users to cite their works when applicable.  
